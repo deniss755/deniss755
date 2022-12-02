@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+    font-size: 24px;
+}
+p {
+    font-size: 120%;
+}
+#a1 {
+    color: red;
+}
+#a1:visited {
+    color: aqua;
+}
+#a2 {
+    color: rgb(179, 255, 2);
+}
+#a2:visited {
+    color: rgb(255, 0, 230);
+}
+#a3 {
+    color: rgb(0, 64, 255);
+}
+#a3:visited {
+    color: rgb(102, 255, 0);
+}
+#a4 {
+    color: rgb(26, 255, 0);
+}
+#a4:visited {
+    color: rgb(255, 60, 0);
+}
+@media (min-width: 992px) {
+    .nav-container {
+        width: 40%;
+    }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+    .nav-container {
+        display: flex;
+        width: 25%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+@media (max-width: 768px) {
+    .nav-container {
+        display: flex;
+        width: 25%;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}

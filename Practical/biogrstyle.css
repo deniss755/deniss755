@@ -1,0 +1,134 @@
+body {
+    font-size: 120%;
+}
+h1 {
+    text-align: center;
+    font-size: 22px;
+
+}
+#back {
+    font-style: italic;
+}
+#menu {
+    text-align: center;
+}
+
+div h2 {
+    font-size: 27px;
+    border: 1px solid black;
+    width: 300px;
+    text-align: center;
+
+}
+#info h2 {
+    background-color: aqua;
+}
+#childhood h2 {
+    background-color: brown;
+    color: white;
+}
+#school h2 {
+    background-color: chocolate;
+}
+#activity h2 {
+    background-color: darkblue;
+    color: white;
+}
+#univercity h2 {
+    background-color: cadetblue;
+}
+div a {
+    font-weight: 600;
+}
+.btn {
+    background-color: blue;
+    width: 10%;
+    border: 2px solid red;
+    font-size: 120%;
+}
+#top {
+    text-transform: uppercase;
+}
+.a1 {
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+    border: 2px solid red;
+    font-size: 120%;
+}
+
+.a1:hover {
+    background-color: magenta;
+    color: black;
+}
+.a1:active { 
+    background-color: yellow;
+}
+#info p {
+    background-color: aqua;
+    color: red;
+}
+#childhood p {
+    background-color: brown;
+    color: aliceblue;
+}
+#school p {
+    background-color: chocolate;
+    color: chartreuse;
+}
+#activity p {
+    background-color: darkblue;
+    color: white;
+}
+#univercity p {
+    background-color: cadetblue;
+    color: rgb(255, 0, 0);
+}
+@media (min-width: 993px) {
+    .container {
+        display: flex;
+        width: 90%;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: space-around;
+    }
+    .container div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+    }
+
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    .container {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .container div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .container div {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        width: 50%;
+    }
+}
