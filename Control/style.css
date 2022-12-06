@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+h1, h2, h3 {
+    font-family: 'Rubik', sans-serif;
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+table tr {
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-around;
+    
+}
+.text {
+    position: absolute;
+}
+.block-1 {
+    position: relative;
+    background-color: blueviolet;
+
+}
+.block-1 p {
+    color: white;
+    font-size: 16px;
+    font-family: 'Handlee', cursive;
+}
+.block-2 ul {
+    color: chartreuse;
+    font-size: 16px;
+    font-family: 'Handlee', cursive;
+}
+.block-3 table {
+    color: black;
+    font-size: 16px;
+    font-family: 'Handlee', cursive;
+}
+.block-2 {
+    position: relative;
+    background-color: rgb(226, 43, 86);
+    
+}
+.block-3 {
+    position: relative;
+    background-color: rgb(43, 134, 226);
+    
+}
+.block-4 {
+    position: relative;
+    background-color: rgb(43, 226, 70);
+
+}
+div .h1 {
+    color: brown;
+    font-size: 19px;
+    font-family: 'Lobster', cursive;
+
+}
+div .h2 {
+    color: cornflowerblue;
+    font-size: 19px;
+    font-family: 'Lobster', cursive;
+
+}
+div .h3 {
+    color: black;
+    font-size: 19px;
+    font-family: 'Lobster', cursive;
+
+}
+div .h4 {
+    color: blue;
+    font-size: 19px;
+    font-family: 'Lobster', cursive;
+
+}
+div h4 {
+    
+    background-color: bisque;
+    width: 100px;
+    text-align: center;
+}
+.block-1 div {
+    position: absolute;
+    right: 0px;
+    top: 195px;
+    
+}
+.block-2 div {
+    position: absolute;
+    right: 0px;
+    top: 195px;
+}
+.block-3 div {
+    position: absolute;
+    right: 0px;
+    /*top: 115px;*/
+    top: 195px;
+}
+.block-4 div {
+    position: absolute;
+    right: 0px;
+    top: 195px;
+}
+
+
+@media (min-width: 1200px) {
+    .col-vlg-3 {
+        width: 25%;
+    }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+    .col-lg-4 {
+        width: 33.33%;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+    .block-1 div {
+        top: 175px;
+    }
+    .block-2 div {
+        top: 175px;
+    }
+    .block-3 div {
+        top: 175px;
+    }
+    .block-4 div {
+        top: 195px;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    .col-md-6 {
+        width: 50%;
+    }
+    .block-1 div {
+        top: 175px;
+    }
+    .block-2 div {
+        top: 175px;
+    }
+    .block-3 div {
+        top: 195px;
+    }
+    .block-4 div {
+        top: 195px;
+    }
+}
+@media (max-width: 768px) {
+    .container{
+        flex-direction: column;
+    }
+    .col-sm-12 {
+        width: 100%;
+    }
+    .block-1 {
+        height: 97px;
+    }
+    .block-1 div {
+        top: 48px;
+    }
+    .block-2 div {
+        top: 175px;
+    }
+    .block-3 div {
+        top: 93px;
+    }
+    .block-4 div {
+        top: 195px;
+    }
+}
